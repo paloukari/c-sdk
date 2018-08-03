@@ -1,0 +1,21 @@
+﻿  main.c
+iothub_client.lib(iothub_client_edge.obj) : error LNK2019: unresolved external symbol _json_parse_string referenced in function _parseResponseJson
+iothub_client.lib(iothub_client_ll_uploadtoblob.obj) : error LNK2001: unresolved external symbol _json_parse_string
+hsm_security_client.lib(hsm_client_http_edge.obj) : error LNK2001: unresolved external symbol _json_parse_string
+iothub_client.lib(iothub_client_edge.obj) : error LNK2019: unresolved external symbol _json_serialize_to_string referenced in function _parseResponseJson
+hsm_security_client.lib(hsm_client_http_edge.obj) : error LNK2001: unresolved external symbol _json_serialize_to_string
+iothub_client.lib(iothub_client_edge.obj) : error LNK2019: unresolved external symbol _json_object_get_value referenced in function _parseResponseJson
+iothub_client.lib(iothub_client_edge.obj) : error LNK2019: unresolved external symbol _json_value_free referenced in function _parseResponseJson
+iothub_client.lib(iothub_client_ll_uploadtoblob.obj) : error LNK2001: unresolved external symbol _json_value_free
+hsm_security_client.lib(hsm_client_http_edge.obj) : error LNK2001: unresolved external symbol _json_value_free
+iothub_client.lib(iothub_client_edge.obj) : error LNK2019: unresolved external symbol _json_value_get_object referenced in function _parseResponseJson
+iothub_client.lib(iothub_client_ll_uploadtoblob.obj) : error LNK2001: unresolved external symbol _json_value_get_object
+hsm_security_client.lib(hsm_client_http_edge.obj) : error LNK2001: unresolved external symbol _json_value_get_object
+iothub_client.lib(iothub_client_edge.obj) : error LNK2019: unresolved external symbol _json_value_get_number referenced in function _parseResponseJson
+iothub_client.lib(iothub_client_ll_uploadtoblob.obj) : error LNK2019: unresolved external symbol _json_object_get_string referenced in function _IoTHubClient_LL_UploadToBlob_step1and2
+hsm_security_client.lib(hsm_client_http_edge.obj) : error LNK2019: unresolved external symbol _json_free_serialized_string referenced in function _construct_json_signing_blob
+hsm_security_client.lib(hsm_client_http_edge.obj) : error LNK2019: unresolved external symbol _json_object_dotget_string referenced in function _parse_json_signing_response
+hsm_security_client.lib(hsm_client_http_edge.obj) : error LNK2019: unresolved external symbol _json_object_set_string referenced in function _construct_json_signing_blob
+hsm_security_client.lib(hsm_client_http_edge.obj) : error LNK2019: unresolved external symbol _json_object_clear referenced in function _construct_json_signing_blob
+hsm_security_client.lib(hsm_client_http_edge.obj) : error LNK2019: unresolved external symbol _json_value_init_object referenced in function _construct_json_signing_blob
+C:\work\oss\me\c-sdk\Debug\c-sdk.exe : fatal error LNK1120: 12 unresolved externals
